@@ -4,3 +4,69 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+/* costruzione schermate */
+
+.full {
+height: 100vh;
+}
+
+.full-red {
+    background-color: red;
+    position: relative;
+}
+
+.full-green {
+    background-color: #008000;
+    position: relative;
+}
+
+.full-yellow {
+    background-color: yellow;
+    position: relative;
+}
+
+
+
+/* contenuti delle schermate */
+
+.centratura {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    width: 60%;
+    text-align: center;
+}
+
+img {
+    display: inline-block;
+    width: 60%;
+    text-align: center;
+}
+
+h2 {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: yellow;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.text-green {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #008000;
+    font-size: 100px;
+    font-weight: bold;
+}
